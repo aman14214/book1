@@ -2,7 +2,7 @@
 {
     z-index: 15;
     border: none;
-    background-color: white;
+    background-color: black;
     padding: 2rem 4rem;
     color: var(--background-color);
     border-bottom: 1px solid var(--background-color);
@@ -28,7 +28,8 @@
 {
     cursor: pointer;
     margin-right: 3rem;
-    color: var(--royal-blue);
+    /* color: var(--royal-blue); */
+    color:white
 }
 
 .search-bar
@@ -60,7 +61,7 @@
 
 .solid-primary-btn.navbar-login-btn
 {
-    background-color: var(--pink-color);
+    background-color: rgb(165, 26, 50);
     transition: none;
 }
 
@@ -68,7 +69,7 @@
 {
     background: var(--royal-blue)
                 radial-gradient(circle, transparent 1%, 
-                rgb(54, 99, 146) 1%) center/15000%;
+                rgb(145, 54, 146) 1%) center/15000%;
 }
 
 .top-bar button:active 

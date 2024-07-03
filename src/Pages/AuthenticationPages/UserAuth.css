@@ -1,13 +1,14 @@
 body
 {
     height: 100vh;
+    
 }
 
 .user-auth-content-container
 {
     width: 100%;
     min-height: calc(100vh - 107.23px);
-    background: url('../../Assets/Images/Library_pic1.jpg');
+    background: url('../../Assets/Images/Library_pic1.jpg'); 
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: center center;
@@ -15,6 +16,9 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
+
+
 }
 
 .user-auth-form
@@ -22,7 +26,8 @@ body
     padding: 3rem 4rem;
     max-width: fit-content;
     text-align: left;
-    border: none;
+    border: solid;
+    background-color: darkgrey
 }
 
 .user-auth-form input
